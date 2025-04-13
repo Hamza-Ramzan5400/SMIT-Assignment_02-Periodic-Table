@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -95,4 +95,96 @@
     </table>
 
 </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(18, 1fr);
+            gap: 5px;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .element {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        /* Colors for different categories */
+        .metal { background-color: #ffcccb; }
+        .nonmetal { background-color: #b3e6ff; }
+        .metalloid { background-color: #ffff99; }
+        .noble-gas { background-color: #d4a3ff; }
+        .alkali-metal { background-color: #ff9999; }
+        .alkaline-earth { background-color: #ffcc66; }
+        .transition-metal { background-color: #ffdb4d; }
+        .lanthanide { background-color: #b3ffb3; }
+        .actinide { background-color: #ffb3ff; }
+    </style>
+</head>
+<body>
+
+    <h1>Periodic Table</h1>
+    <div class="container">
+        <div class="element nonmetal">H<br>1</div>
+        <div class="element" style="grid-column: 18;">He<br>2</div>
+        
+        <div class="element alkali-metal">Li<br>3</div>
+        <div class="element alkaline-earth">Be<br>4</div>
+        <div class="element" style="grid-column: 13;">B<br>5</div>
+        <div class="element nonmetal">C<br>6</div>
+        <div class="element nonmetal">N<br>7</div>
+        <div class="element nonmetal">O<br>8</div>
+        <div class="element halogen">F<br>9</div>
+        <div class="element noble-gas">Ne<br>10</div>
+        
+        <div class="element alkali-metal">Na<br>11</div>
+        <div class="element alkaline-earth">Mg<br>12</div>
+        <div class="element metalloid" style="grid-column: 13;">Al<br>13</div>
+        <div class="element metalloid">Si<br>14</div>
+        <div class="element nonmetal">P<br>15</div>
+        <div class="element nonmetal">S<br>16</div>
+        <div class="element halogen">Cl<br>17</div>
+        <div class="element noble-gas">Ar<br>18</div>
+        
+        <div class="element alkali-metal">K<br>19</div>
+        <div class="element alkaline-earth">Ca<br>20</div>
+        <div class="element transition-metal">Sc<br>21</div>
+        <div class="element transition-metal">Ti<br>22</div>
+        <div class="element transition-metal">V<br>23</div>
+        <div class="element transition-metal">Cr<br>24</div>
+        <div class="element transition-metal">Mn<br>25</div>
+        <div class="element transition-metal">Fe<br>26</div>
+        <div class="element transition-metal">Co<br>27</div>
+        <div class="element transition-metal">Ni<br>28</div>
+        <div class="element transition-metal">Cu<br>29</div>
+        <div class="element transition-metal">Zn<br>30</div>
+        <div class="element metalloid">Ga<br>31</div>
+        <div class="element metalloid">Ge<br>32</div>
+        <div class="element metalloid">As<br>33</div>
+        <div class="element nonmetal">Se<br>34</div>
+        <div class="element halogen">Br<br>35</div>
+        <div class="element noble-gas">Kr<br>36</div>
+
+        <!-- You can continue the rest of the table similarly -->
+    </div>
+
+</body>
 </html>
+
